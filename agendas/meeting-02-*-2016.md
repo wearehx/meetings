@@ -5,6 +5,9 @@
 
 ## Agenda
 * Subgroups
+* Spam prevention (@nsgomez)
+* Hackbot posts to Github (@gsingh93)
+* Number of admins being odd (@gsingh93)
 * [your suggestion here?]
 * General Q&A
 
