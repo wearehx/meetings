@@ -1,0 +1,597 @@
+[20:00:41] <majora> ok it's 8PM EST
+[20:00:44] <gsingh93> iangcarroll: arirawr majora ready?
+[20:00:49] <iangcarroll> alright
+[20:00:54] <gsingh93> iangcarroll: is moderator?
+[20:00:58] <majora> yes
+[20:00:59] <iangcarroll> sounds good
+[20:01:16] <arirawr> yeah
+[20:01:19] <gsingh93> set topic to agenda plz
+[20:01:20] <iangcarroll> let me pull up the agenda
+[20:01:41] <iangcarroll> and merge it
+[20:01:53] <iangcarroll> my phone is dead for 2FA; can majora or arirawr?
+[20:02:01] <gsingh93> can't wait until we get meeting bot
+[20:02:05] <majora> what a meme
+[20:02:25] <majora> what all do I need to do?
+[20:02:31] <iangcarroll> go to the PR and click merge
+[20:02:32] <iangcarroll> lol
+[20:02:34] <gsingh93> merge agenda
+[20:02:38] <gsingh93> then put it in the topic
+[20:02:42] *** ChanServ sets mode: +o iangcarroll
+[20:02:45] <majora> I got it
+[20:03:16] <majora> merged <https://github.com/wearehx/meetings/blob/master/agendas/meeting-02-02-2016.md>
+[20:03:17] <yossarian-bot> Title: meetings/meeting-02-02-2016.md at master Â· wearehx/meetings Â· GitHub
+[20:03:21] *** iangcarroll changes topic to 'Hackers administration matters | https://github.com/wearehx | Mods are voiced | Meeting minutes: https://github.com/wearehx/meetings/blob/master/agendas/meeting-02-02-2016.md | Admin policy draft: https://git.io/v06vT'
+[20:03:23] *** Joins: m0shbear (~011899988@servbox.moshbear.net)
+[20:03:32] <jfkingsley> Nice!
+[20:03:35] *** iangcarroll changes topic to 'Hackers administration matters | https://github.com/wearehx | Mods are voiced | Current meeting agenda: https://github.com/wearehx/meetings/blob/master/agendas/meeting-02-02-2016.md | Admin policy draft: https://git.io/v06vT'
+[20:03:40] *** iangcarroll sets mode: -o iangcarroll
+[20:03:45] <jfkingsley> Alright then.. It's showtime
+[20:03:46] <iangcarroll> First up is subgroups
+[20:03:49] *** Joins: vishwin60 (~chatzilla@wikimedia/O)
+[20:03:50] <cydrobolt> Hi
+[20:03:56] <iangcarroll> anyone want to start?
+[20:04:00] <gsingh93> iangcarroll: can you go over rules first
+[20:04:03] <gsingh93> for new people
+[20:04:06] <gsingh93> or just
+[20:04:13] <gsingh93> generally how we do this and when to butt in
+[20:04:17] <iangcarroll> kk
+[20:05:30] <iangcarroll> so, I'll go over each item on our agenda one by one, anyone listed, or if nobody, usually an admin, will start the discussion off, and then anyone can usually give their opinion. then the admins will field questions at the end
+[20:05:44] <iangcarroll> that was poorly worded
+[20:05:46] <SamuelKelemen> https://github.com/wearehx/meetings/compare/master...SCKelemen:patch-1
+[20:05:46] <yossarian-bot> Title: Comparing wearehx:master...SCKelemen:patch-1 Â· wearehx/meetings Â· GitHub
+[20:05:51] <jfkingsley> Nah, makes sense
+[20:05:55] <gsingh93> but please try to be considerate about who's talking
+[20:06:07] <gsingh93> i.e. IRC doesn't tell you who's typing
+[20:06:14] <iangcarroll> yeah
+[20:06:15] <majora> and we try to move in an orderly fashion too
+[20:06:16] <gsingh93> so if it seems like someone is typing a long thought
+[20:06:18] <gsingh93> let them
+[20:06:20] <gsingh93> yes
+[20:06:22] <gsingh93> ok
+[20:06:24] <jfkingsley> Basically, you guys bring up the topic, start the discussion, and then we pseudo-debate it without being idiots, close it off and continue
+[20:06:24] <iangcarroll> so, any questions you should probably PM me so we can move on in this channel
+[20:06:33] <iangcarroll> first up is subgroups
+[20:06:37] <gsingh93> https://github.com/wearehx/policies/issues/12
+[20:06:37] <yossarian-bot> Title: Policies for Subgroups Â· Issue #12 Â· wearehx/policies Â· GitHub
+[20:06:42] *** Joins: rubinovitz (~Adium@2604:2000:12c0:c1fb:e9f6:9925:c4b1:d0b3)
+[20:06:48] <gsingh93> there is some discussion of subgroups in that issue
+[20:06:48] <iangcarroll> we essentially want to determine how we officially deal with subgroups
+[20:07:05] <SamuelKelemen> Oui.
+[20:07:05] <gsingh93> shall i summarize that issue iangcarroll?
+[20:07:10] <iangcarroll> yeah
+[20:07:17] <gsingh93> alright
+[20:07:22] <gsingh93> so here is one side of the argument
+[20:07:37] <gsingh93> HH subgroups had almost no HH admin control
+[20:07:47] <gsingh93> at least, for the three or four subgroups I was very involved in
+[20:07:50] <gsingh93> HH was only in the name
+[20:08:01] <gsingh93> and the benefit to the groups was the stream of members coming in from HH
+[20:08:09] <gsingh93> because the groups were advertised in comments in HH
+[20:08:12] <gsingh93> and in the sidebar
+[20:08:26] <gsingh93> so in terms of administration, a subgroup is completely independent
+[20:08:38] <gsingh93> the other observation is that subgroups foster community
+[20:08:44] <gsingh93> where as the main group has thousands of members
+[20:08:50] <gsingh93> usually subgroups stay in the hundreds
+[20:08:57] <gsingh93> who mostly know each other
+[20:09:09] <gsingh93> finally, subgroups all a subscription model to content
+[20:09:22] <gsingh93> i.e. while a group like HX has different types of posts
+[20:09:27] <gsingh93> and you may not care about all of them
+[20:09:39] <gsingh93> there may be a topic (like security for example) that you want to be notified of all posts for
+[20:09:47] <gsingh93> so these are the benefits of subgroups
+[20:09:52] <gsingh93> the flip side of the argument
+[20:10:04] <gsingh93> is that these good posts that posted in subgroups should be posted in the main group
+[20:10:12] <gsingh93> to increase the quality of posts in the main group
+[20:10:26] <gsingh93> especially in a new group, where the number of posts is already low
+[20:10:32] <gsingh93> that's the end of my summary
+[20:10:40] <majora> I don't think we should try to federate them but we should allow people to identify as HX subroups.  But to be officially recognized I feel we should take the standard of 250+ people HH did.  We should also allow HH subgroups to act as HX subgroups if they so want.  But we should be less willing to push all discussion to subgroups because I feel that got quite annoying and can help the main group (which gsingh93 seems to agree with).
+[20:10:43] <gsingh93> i am for subgroups, in the independent style i described
+[20:10:57] <arirawr> +1 frank
+[20:11:21] <gsingh93> i'm fine with that
+[20:11:24] <gsingh93> i.e.
+[20:11:24] <iangcarroll> so, I think we're all in agreement about that
+[20:11:24] <SamuelKelemen> same
+[20:11:30] <gsingh93> let's have them
+[20:11:33] <arirawr> I expressed at the last meeting that I think HX needs more content before it can be siloed...how do you aim to encourage posting in HX
+[20:11:37] <SamuelKelemen> I disagree with the 250 count
+[20:11:39] <gsingh93> but don't force people to push convos to subgroups
+[20:11:50] <SamuelKelemen> we have hardly 1k members.
+[20:11:50] <cydrobolt> +1 with majora on that
+[20:11:51] <jfkingsley> There's always going to be groups of people with specific interests that can't be discussed in one massive arena without significant problems in terms of miscommunication.
+[20:11:53] <iangcarroll> HH didn't really do anything and yet they aren't really suffering membership wise
+[20:12:01] <iangcarroll> (re: arirawr)
+[20:12:05] <jfkingsley> ^^
+[20:12:14] <majora> well I think ruby posts should be in HX and there is no need for HX Ruby
+[20:12:31] <majora> but there is a need for HX Music because I don't care what music you're listening to and that is probably off topic
+[20:12:41] <vishwin60> HH was a bit more open re membership than us afaif
+[20:12:43] <gsingh93> majora: a ruby post in HX will have a different sort of discussion than a post in HX ruby
+[20:12:45] <SamuelKelemen> We should ask subs to message to the main group though, on creation. So that we can compile a list of subs
+[20:12:51] <iangcarroll> we're not limiting membership vishwin60
+[20:12:56] <iangcarroll> only filtering spam
+[20:13:14] <vishwin60> rightâ€¦
+[20:13:15] <majora> gsingh93 I think if they're both filled wiht the same great ruby people it should include the HX Ruby convo + more from tons of others
+[20:13:29] <gsingh93> majora: ideally yes, but that's actually not what will happen
+[20:13:32] <gsingh93> because of the subscription model
+[20:13:40] <gsingh93> i.e. many great ruby people will never see your post
+[20:13:47] <majora> true
+[20:13:49] <gsingh93> because of the nature of large groups like HX
+[20:13:58] <rubinovitz> some people will unfollow HX vs not unfollow HX Ruby
+[20:14:00] <gsingh93> i have notifications turned on for *all* of my subgroups
+[20:14:02] <gsingh93> it's wonderful
+[20:14:24] <SamuelKelemen> I was like 95% subs, and <5% HH
+[20:14:25] <gsingh93> i currently have notifications on for HX
+[20:14:28] <gsingh93> but that's temporrary
+[20:14:32] <gsingh93> i plan to turn it off in the future
+[20:14:34] <jfkingsley> I think there's definitely something to be said for highly specific topic threads though. A significant portion of the HX community isn't necessarily going to be interested in a lot of these more focused things, which may in turn cause people to leave HX due to content overload.
+[20:14:49] <SamuelKelemen> agreed
+[20:14:53] <majora> okay well I think let's have them but not push programming / hacking related posts to subgroups. but if it is a non-hacking related post we push it to it's subgroup
+[20:14:57] <iangcarroll> so, we will maintain a list of high-membership groups, but we will not redirect policy-compliant posts
+[20:14:59] <gsingh93> majora: agreed
+[20:15:05] <gsingh93> they should be there so you have the option
+[20:15:11] <gsingh93> but no one should be forced there
+[20:15:13] <jfkingsley> ^^
+[20:15:15] <gsingh93> although, *recommendations* are fine
+[20:15:25] <gsingh93> because they might get better answers
+[20:15:27] <SamuelKelemen> I'll create a page to list the subs with a search
+[20:15:32] <iangcarroll> so what are our next steps here?
+[20:15:33] <jfkingsley> Exactly, they're more optional than required to discuss topics
+[20:15:37] <gsingh93> SamuelKelemen: please hold off
+[20:15:41] <gsingh93> until we declare some action items
+[20:15:43] <majora> yeah but we need to make it so members can't say "Take your ruby post to HX Ruby" but instead "Maybe try HX Ruby since no one answered it yet"
+[20:15:47] <iangcarroll> we need a threshold for group membership count
+[20:15:50] <gsingh93> majora: agreed
+[20:15:53] <jfkingsley> I'd say around 250
+[20:15:58] <gsingh93> as admins, focus on enforcing that
+[20:16:03] <SamuelKelemen> 250 is going to be impossible
+[20:16:05] <iangcarroll> that is 25% of all the members in HX, so I dunno
+[20:16:07] <majora> 250 is 1/4 or so of HX...
+[20:16:10] <jfkingsley> +1 @gsingh93
+[20:16:15] <majora> let's go with 150
+[20:16:18] <SamuelKelemen> how about, if it contains a "significant number"
+[20:16:19] <jfkingsley> Aight
+[20:16:26] <jfkingsley> Yes, but what defines significant
+[20:16:29] <iangcarroll> i think a documented threshold is a good idea here
+[20:16:31] <SamuelKelemen> leave it up to interpretation
+[20:16:37] <jfkingsley> IMO for better or worse we need a constant
+[20:16:38] <majora> 1/10 the size of HX
+[20:16:39] <majora> lmao
+[20:16:49] <gsingh93> why don't we start on the smaller side?
+[20:16:52] <SamuelKelemen> the only thing that matters though, is if HX will list it?
+[20:16:53] <gsingh93> and then scale up as we need to?
+[20:17:05] <vishwin60> wasn't the HH subgroup threshold like only 100 at one time?
+[20:17:07] <majora> Yes SamuelKelemen
+[20:17:09] <jfkingsley> I'd agree with hat
+[20:17:10] <jfkingsley> *that
+[20:17:13] <majora> yes vishwin60
+[20:17:16] <SamuelKelemen> because we are saying that HX subs can exist with out HX approval
+[20:17:22] <iangcarroll> yes
+[20:17:25] <jfkingsley> So start at 100 and re-evaluate it later down the line?
+[20:17:26] <majora> well it won't be officially recognized
+[20:17:31] <iangcarroll> we don't own a registered trademark on HX
+[20:17:31] <majora> w/e that means
+[20:17:35] <vishwin60> lol
+[20:17:39] <SamuelKelemen> lol
+[20:17:53] <gsingh93> so we will have some list?
+[20:17:54] <SamuelKelemen> We own "We Are HX"
+[20:18:03] *** Joins: zeusk (9076e48a@gateway/web/cgi-irc/kiwiirc.com/ip.144.118.228.138)
+[20:18:04] <gsingh93> and if they have over 100 and request it
+[20:18:07] <zeusk> hi guise
+[20:18:08] <gsingh93> we add their group to the list?
+[20:18:10] <majora> maybe official subgroup leaders get free memes or something
+[20:18:18] <majora> yes gsingh93
+[20:18:25] <jfkingsley> Are we going to bring up the topic of support/tooling, or since they're not going to be technically official that's now off the books?
+[20:18:32] <gsingh93> are all admins in agreement?
+[20:18:34] <gsingh93> jfkingsley: what?
+[20:18:39] <iangcarroll> 100 is fine
+[20:18:44] <majora> 100 is fine
+[20:18:52] <arirawr> 100 *and* an appropriate topic
+[20:18:58] <majora> we need to update content policy so people can't say "just use the subgroup" too
+[20:19:06] <majora> so that needs to be added to a todo
+[20:19:07] <gsingh93> arirawr: how do we decide what's appropriate?
+[20:19:10] <jfkingsley> "HX should give the subgroup admins tools to help them perform their duties, and maintain a high quality, content driven, group and community. This, in turn, will have positive effect on HX as a whole."
+[20:19:19] <iangcarroll> don't think we have any tools to give
+[20:19:22] <jfkingsley> Yeah..
+[20:19:23] <gsingh93> yea...
+[20:19:25] <iangcarroll> nor do we want to invest a lot of time in them
+[20:19:28] <gsingh93> yea
+[20:19:29] <jfkingsley> I did wonder what exactly was meant there
+[20:19:33] <iangcarroll> no offense to subgroups or anything
+[20:19:48] <arirawr> gsingh93: common sense...illegal stuff etc
+[20:19:49] <jfkingsley> Focus efforts on the main group first IMO
+[20:19:51] <majora> we'll give them dank memes
+[20:19:52] <gsingh93> arirawr: ah
+[20:19:55] <gsingh93> agreed
+[20:19:59] <SamuelKelemen> I just meant giving the sub hackbot if they want it
+[20:20:01] <jfkingsley> @majora +1
+[20:20:11] <iangcarroll> well, they can download hackbot themselves
+[20:20:12] <gsingh93> SamuelKelemen: it's open source
+[20:20:12] <jfkingsley> I mean, anybody can setup their own instance of Hackbot, right?
+[20:20:15] <jfkingsley> Yeah
+[20:20:17] <SamuelKelemen> any tools made for HX should be available by request to the subs
+[20:20:18] <gsingh93> we don't need to give anyone anything
+[20:20:24] <gsingh93> requests aren't necessary
+[20:20:28] <gsingh93> just take them
+[20:20:33] <jfkingsley> Aight
+[20:20:42] <iangcarroll> okay
+[20:20:46] <majora> I think the main point is we advertise them in some way
+[20:20:47] <iangcarroll> we're in agreement then
+[20:20:48] <majora> okay sorry
+[20:21:01] <iangcarroll> next, should I make a repo with a list?
+[20:21:17] <majora> yes
+[20:21:26] <arirawr> sidebar = more visibility
+[20:21:27] <iangcarroll> kk; PRs should work fine for submitting groups
+[20:21:33] <gsingh93> definitely sidebar too
+[20:21:41] <iangcarroll> alright
+[20:21:48] <gsingh93> iangcarroll: make sure you're writing down TODOs like majora did last time
+[20:21:53] <iangcarroll> will do
+[20:22:02] <jfkingsley> So basically mirror the repo to the Sidebar list
+[20:22:15] <majora> yes but who ever buys us beer is at the top
+[20:22:19] <iangcarroll> lol
+[20:22:27] <gsingh93> ready to move on?
+[20:22:28] <skasturi> try to make it as transparent as possible, imo
+[20:22:29] <iangcarroll> okay, I think we're set on this
+[20:22:29] <jfkingsley> Is that democratic..?
+[20:22:31] <jfkingsley> :P
+[20:22:41] <vishwin60> there exists consensus
+[20:22:44] <majora> jfkingsley it's like lobbying
+[20:22:45] <skasturi> let's move on
+[20:22:50] <iangcarroll> next is spam prevention
+[20:22:52] <arirawr> Todo: post about how to submit
+[20:22:54] <iangcarroll> is ngomez here?
+[20:23:11] *** Quits: zeusk (9076e48a@gateway/web/cgi-irc/kiwiirc.com/ip.144.118.228.138) (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+[20:23:19] <iangcarroll> from github: "Spam prevention and reviewing join requests from potential spammers should probably be discussed during the meeting as well."
+[20:23:29] <gsingh93> well
+[20:23:30] <jfkingsley> @majora We're going to end up with a bunch of subgroups starting Bernie Sanders like grassroots campaigns /s
+[20:23:33] <iangcarroll> i guess I can address that if he's not here
+[20:23:35] <gsingh93> his nick isn't here
+[20:23:39] <iangcarroll> ngomez is
+[20:23:47] <gsingh93> go ahead
+[20:23:53] <gsingh93> unless he pops up later
+[20:23:55] <jfkingsley> ^
+[20:23:57] <skasturi> someone should fb message him
+[20:24:00] <skasturi> incase he forgot
+[20:24:01] <gsingh93> it's fine
+[20:24:01] <SamuelKelemen> (Quit: http://www.kiwiirc.com/ - A hand crafted IRC client)
+[20:24:02] <yossarian-bot> Title: KiwiIRC - The webIRC client
+[20:24:04] <gsingh93> he doesn't *need* to lead this
+[20:24:17] <gsingh93> we would be discussin the issue anyway
+[20:24:41] <iangcarroll> kk; right now I am checking profiles and only denying profiles that are suspicious (no posts, odd friends, etc)
+[20:24:53] <arirawr> Personally I haven't been accepting many unless I know them
+[20:25:01] <arirawr> The other ones disappear from the list
+[20:25:02] <majora> I only allow people with mutual friends or who look like fun spammers
+[20:25:06] <gsingh93> in the last week or so things have been better
+[20:25:11] <majora> but I stopped allowing fun spammers
+[20:25:17] <arirawr> -_-
+[20:25:20] <gsingh93> ...
+[20:25:22] <jfkingsley> ....
+[20:25:24] <iangcarroll> the question is do we need a proceedure for reviewing profiles
+[20:25:29] <iangcarroll> and do we need to ban majora
+[20:25:32] <iangcarroll>  /s
+[20:25:35] <arirawr> no and yes
+[20:25:37] <gsingh93> haha
+[20:25:44] <majora> this isn't a border
+[20:25:55] <gsingh93> i think we should all be on the same page
+[20:25:57] <gsingh93> the admins that is
+[20:26:00] <majora> yes
+[20:26:00] <gsingh93> on what each of you guys do
+[20:26:03] <arirawr> Common sense reigns again here
+[20:26:04] <gsingh93> and when someone gets in
+[20:26:09] <gsingh93> figure out who let them in
+[20:26:12] <gsingh93> and how it happened
+[20:26:12] <iangcarroll> i guess I'm the only one here approving the random joins lol
+[20:26:13] <jfkingsley> I mean, the real question is do we have enough possible rules to - Figuring out if somebody's gonna spam or not is pretty subjective
+[20:26:14] <gsingh93> not as like a shaming thing
+[20:26:22] <gsingh93> jfkingsley: not in most cases
+[20:26:28] <gsingh93> the people who have been causing trouble
+[20:26:28] <majora> I try to make sure they have mutual friends, next I go to their profile to see if there is anything CS or hacker related
+[20:26:31] <gsingh93> have 0 mutual friends
+[20:26:37] <gsingh93> or made a profile a few days ago
+[20:26:40] <arirawr> I do what majora does
+[20:26:44] <arirawr> very selective
+[20:26:45] <jfkingsley> Yeah, true - I meant more inasmuch as there's no 100% objective way to figure it out
+[20:26:46] <gsingh93> cool
+[20:26:48] <skasturi> are y'all able to see if $person has any friends in the group?
+[20:26:52] <iangcarroll> yes
+[20:26:52] <arirawr> yeah
+[20:26:53] <majora> yes
+[20:27:03] <vishwin60> even us plebes can
+[20:27:05] <vishwin60> in a way
+[20:27:06] <jfkingsley> That's probably a decent indicator then
+[20:27:15] <iangcarroll> there are a lot of legitimate profiles without that though
+[20:27:15] <majora> no, what if you hear about HX at a hackathon
+[20:27:19] <iangcarroll> or at least, profiles not spamming
+[20:27:24] <arirawr> I'm not worried about this at all folks
+[20:27:27] <majora> I remember some hackathons advertised HH we might get that big
+[20:27:48] <gsingh93> this is just an extra thing, but if you do accidently let someone in, do me a favor and send me their profile
+[20:27:58] <vishwin60> I remember YHack had a CdT chromecast going but that's CdT, not us
+[20:28:00] <iangcarroll> lol, do you want me to send you the obvious spam profiles?
+[20:28:06] <gsingh93> iangcarroll: yea
+[20:28:10] <arirawr> Pretty sure we're on the same page.
+[20:28:10] <majora> I mean we've been v good about removing spammers I think this happened when someone asked about hacking and then Shane Creighton-Young was like "guys hack is a language" and they clearly meant hacking fB and it was a big problem
+[20:28:11] <iangcarroll> kk
+[20:28:26] <iangcarroll> so, consensus is common sense?
+[20:28:35] <jfkingsley> Pretty much
+[20:28:36] <majora> yes
+[20:28:37] <iangcarroll> and no proceedure is really needed
+[20:28:38] <vishwin60> wouldn't phrase it as common sense but sure
+[20:28:43] <arirawr> indeed
+[20:28:50] <iangcarroll> kk
+[20:28:55] <arirawr> procedure is keep doing what you're doing
+[20:29:01] <jfkingsley> tl;dr, don't let the guy with the job title "H4xer at Anonymous LTD" in.
+[20:29:02] <iangcarroll> hackbot posting to github is next; gsingh93 has that
+[20:29:03] <SamuelKelemen> NGomez is unavailable. =/
+[20:29:08] <majora> if it really becomes a problem and you deny someone that wants to be in I'm sure they'll DM us
+[20:29:14] <gsingh93> wait, i need to read my comment here on the PR
+[20:29:19] <gsingh93> like in what context did i say thing
+[20:29:21] <gsingh93> this*(
+[20:29:28] <iangcarroll> kk
+[20:29:35] <iangcarroll> coffee break
+[20:29:42] <gsingh93> One thing to talk about: hackbot posts to github when it deletes a post, but I don't think we can do more fine grained deletion, like comments."
+[20:29:49] <iangcarroll> hm
+[20:29:50] <gsingh93> ah, i remember now
+[20:29:51] <iangcarroll> wanna test?
+[20:29:57] <iangcarroll> oh, /delete is off
+[20:29:57] <gsingh93> add it as a TODO item
+[20:29:59] <iangcarroll> one second
+[20:30:00] <iangcarroll> kk
+[20:30:06] <gsingh93> but yea
+[20:30:10] <gsingh93> just wanted to point out
+[20:30:13] <iangcarroll> alright
+[20:30:16] <gsingh93> that we want to be transparent
+[20:30:22] <gsingh93> so we can use the /delete command
+[20:30:24] <iangcarroll> seems fair
+[20:30:24] <gsingh93> which gets logged
+[20:30:28] <gsingh93> but if it doesn't work for comments
+[20:30:30] <gsingh93> that's an issue
+[20:30:33] <jfkingsley> We can't as in it would clog memory or as in there literally isn't API access?
+[20:30:38] <gsingh93> because we can't delete comments without logs
+[20:30:40] <iangcarroll> hackbot might not support it
+[20:30:44] <jfkingsley> Ahh
+[20:30:48] <iangcarroll> next up is number of admins being odd (@gsingh93)
+[20:30:51] <gsingh93> ok
+[20:30:53] <gsingh93> well
+[20:30:55] <gsingh93> the issue speaks for itself
+[20:31:06] <majora> I agree with it
+[20:31:06] <gsingh93> should we require an odd number of admins in the admin policy?
+[20:31:09] <gsingh93> to avoid deadlocks?
+[20:31:13] <iangcarroll> ah
+[20:31:14] <skasturi> as long as we're not adding an admin for the sake of odd numbers
+[20:31:16] <gsingh93> i think it makes sense
+[20:31:21] <arirawr> I'm ambivalent
+[20:31:22] <SamuelKelemen> Can I still add things to the PR?
+[20:31:24] <gsingh93> skasturi: we will be
+[20:31:31] <iangcarroll> well, it got merged
+[20:31:33] <majora> that just means it'll be 3-> 5-> 7 -> 9 as we grow
+[20:31:36] <majora> etc
+[20:31:39] <iangcarroll> usually you just wait until the end samuel
+[20:31:39] <gsingh93> yes
+[20:31:56] <gsingh93> so majora is in agreement, arirawr doesn't mind
+[20:31:59] <iangcarroll> i agree w/ the odd one
+[20:32:01] <gsingh93> cool
+[20:32:06] <iangcarroll> kk
+[20:32:09] <iangcarroll> Using MeetBot (@cydrobolt)
+[20:32:11] <jfkingsley> I'll throw my hat in the ring too.
+[20:32:11] <gsingh93> add it to the list
+[20:32:13] <iangcarroll> cydrobolt
+[20:32:28] <SamuelKelemen> I prefer odd numbers
+[20:32:33] <iangcarroll> is cydrobolt here?
+[20:32:34] <gsingh93> SamuelKelemen: topic has ended
+[20:32:43] <SamuelKelemen> but we should make the requirement prime numbers
+[20:32:46] <iangcarroll> lemme message him on FB
+[20:32:47] <gsingh93> sigh...
+[20:32:48] <majora> well we didn't give people a chance to talk
+[20:32:52] <SamuelKelemen> @gsingh93 =(
+[20:33:03] <gsingh93> well, blame iangcarroll :P
+[20:33:10] <SamuelKelemen> RIP
+[20:33:11] <majora> say it SamuelKelemen
+[20:33:13] * iangcarroll looks around nervously
+[20:33:22] <SamuelKelemen> Nah, just continue
+[20:33:27] <majora> lol oh
+[20:33:29] <majora> >prime numbers
+[20:33:30] <gsingh93> also, i'm assuming prime numbers was a joke
+[20:33:31] <SamuelKelemen> I'll bitch about it in the future
+[20:33:31] <majora> nty
+[20:33:38] <gsingh93> let's try to keep this serious guys
+[20:33:45] <iangcarroll> okay, so we will keep going
+[20:33:49] <iangcarroll> and see if he joins us later on
+[20:33:51] <gsingh93> we can talk about meetbot still
+[20:33:52] <SamuelKelemen> i think odd numbers is valid, but yes:: continue
+[20:33:55] * majora kicks a tire 
+[20:34:01] <gsingh93> again, we don't need him here
+[20:34:02] <iangcarroll> everyone should read https://wiki.debian.org/MeetBot
+[20:34:03] <yossarian-bot> Title: MeetBot - Debian Wiki
+[20:34:04] * jfkingsley lights the tyre on fire
+[20:34:07] * arirawr kicks majora
+[20:34:18] <gsingh93> i think we should just setup MeetBot
+[20:34:19] <majora> would it require supybot?
+[20:34:23] <gsingh93> and try it
+[20:34:27] <skasturi> yes it would
+[20:34:27] <iangcarroll> we should probably pause for a second
+[20:34:34] <iangcarroll> and let people read the page
+[20:34:36] <jfkingsley> Personally, as much as I love Automating things, I do not trust stuff like that over an actual person taking notes.
+[20:34:45] <gsingh93> what do you mean by trust?
+[20:34:49] <majora> would we be able to run it on the same server as yossarian bot?
+[20:34:52] <jfkingsley> There's too much of a possibility of potentially lost information because somebody didn't tag the bot
+[20:34:59] <gsingh93> woodruffw: ty?
+[20:35:00] <majora> server's eventually cost money..
+[20:35:03] <gsingh93> yt*
+[20:35:07] <skasturi> i vote that we should try out meetbot at the next meeting
+[20:35:07] <arirawr> I would prefer to have someone take old fashioned notes
+[20:35:18] <SamuelKelemen> I have free access to servers
+[20:35:19] <gsingh93> arirawr: would you be against trying this?
+[20:35:29] <SamuelKelemen> Which is why I volunteered to provide hosting to HX
+[20:35:32] <skasturi> let's give it a trial run of one meeting, with a person still taking notes during said trial run
+[20:35:32] <iangcarroll> well, there goes that pause
+[20:35:40] <arirawr> no, but it sounds harder to set up than one of you just taking notes
+[20:35:48] <gsingh93> it's fairly easy to setup
+[20:35:50] <gsingh93> i can do it
+[20:35:51] <skasturi> i have a supybot
+[20:35:53] <majora> I think giving it a trial is fine if someone wants to set it up, I'm not setting it up
+[20:35:54] <skasturi> i can set it up
+[20:35:54] <gsingh93> but i'd prefer if woodruffw did
+[20:35:59] <gsingh93> to keep the bots in the same spot
+[20:36:00] <gsingh93> yea
+[20:36:04] <gsingh93> like five of us can do it
+[20:36:04] * arirawr still wants human notes
+[20:36:15] <iangcarroll> arirawr: that human can just make sure things are added to meetbot
+[20:36:16] <gsingh93> arirawr: sure, but we can do a test run of meetbot
+[20:36:21] <gsingh93> where someone also takes human notes
+[20:36:23] <arirawr> I gues.....
+[20:36:25] <gsingh93> how does that sound?
+[20:36:29] <skasturi> sounds cool to me
+[20:36:35] <m0shbear> why not chuck a log of all lines at IBM Watson (R) and have it turn into a quasi-human logger? :)
+[20:36:37] <arirawr> no one has stepped up to take human notes thus far though....
+[20:36:38] <iangcarroll> we'd also need a way to limit it to voiced people
+[20:36:39] <jfkingsley> But doesn't that defeat the whole point of it.. @iangcarroll
+[20:36:50] <jfkingsley> At that point you've basically made a bot to copy/paste logs to google docs
+[20:36:55] <gsingh93> arirawr: then meetbot makes a lot of sense...
+[20:36:58] <jfkingsley> Just slightly more complex
+[20:37:00] <skasturi> iangcarroll: supybot has permission levels etc so that can happen
+[20:37:00] <gsingh93> either volunteer to take human notes
+[20:37:06] <gsingh93> or just use a bot to make it easier
+[20:37:07] <iangcarroll> jfkingsley: just making sure people don't forget, not really any work there
+[20:37:16] <arirawr> I can't take minutes when I'm part of the discussion
+[20:37:20] <arirawr> but w/e
+[20:37:23] <gsingh93> well an irc bot makes it easier
+[20:37:29] <gsingh93> to do while discussing
+[20:37:35] <iangcarroll> admin vote on trying it next meeting?
+[20:37:40] <arirawr> abstain
+[20:37:47] <iangcarroll> i vote yes
+[20:37:49] <majora> yes
+[20:37:50] <gsingh93> if majora says no
+[20:37:51] <SamuelKelemen> I can take notes if its super important
+[20:37:53] <gsingh93> we have a tie
+[20:37:55] <gsingh93> lol
+[20:37:56] <iangcarroll> k, we're good
+[20:38:01] <gsingh93> (y)
+[20:38:04] <gsingh93> SamuelKelemen: sure
+[20:38:06] <iangcarroll> gsingh93 will set it up?
+[20:38:09] <gsingh93> sure
+[20:38:09] <woodruffw> sorry, what's going on?
+[20:38:11] <gsingh93> ah
+[20:38:14] <woodruffw> something about yossarian-bot and servers?
+[20:38:15] <gsingh93> woodruffw: i'll ping you later
+[20:38:19] <woodruffw> alright
+[20:38:20] <iangcarroll> kk
+[20:38:20] <gsingh93> let's keep going iangcarroll
+[20:38:27] <iangcarroll> added meetbot to todos
+[20:38:37] <iangcarroll> Hack Coop (@rubinovitz)
+[20:38:40] <majora> is rubinovitz here
+[20:38:40] <iangcarroll> are you there rubinovitz?
+[20:38:50] <SamuelKelemen> rubinovitz
+[20:38:51] <rubinovitz> hm
+[20:38:52] <arirawr> I think she went to bed
+[20:38:55] <arirawr> oh, hi
+[20:38:58] <SamuelKelemen> i disagree
+[20:39:01] <rubinovitz> yay notifications
+[20:39:02] <arirawr> :P
+[20:39:07] <jfkingsley> She has arrived!
+[20:39:07] <rubinovitz> i am technically coding in bed. good game.
+[20:39:10] <majora> say your thing about the co-op please
+[20:39:25] <rubinovitz> ok this will take a min to type out
+[20:40:07] * arirawr plays jeopardy theme
+[20:40:33] *** Joins: smudkavi (~smudkavi@208.72.125.2)
+[20:40:35] <rubinovitz> I bought hack.coop because I wanted their to be a hacker cooperative umbrella org. I finally got them/domains.coop to approve me as an official co-op so I can use the url now
+[20:40:35] <jfkingsley> https://www.youtube.com/watch?v=9m9lN13hpk4
+[20:40:35] <yossarian-bot> Title: Countdown Clock 2009
+[20:40:49] <rubinovitz> anyway, HX community is good stuff so if you have any ideas for it, holler
+[20:41:07] <rubinovitz> I had some project ideas I wanted to do from it as far as content creation back in the days of HH, but am kinda burnt right now
+[20:41:22] <gsingh93> so
+[20:41:26] <gsingh93> i don't know what any of this means
+[20:41:28] <gsingh93> sorry
+[20:41:40] <arirawr> rubinovitz I loved your ideas about having creators get credit for their work
+[20:41:42] <rubinovitz> yeah it might be too early for you
+[20:41:43] <gsingh93> can you explain some more what it is?
+[20:41:47] <majora> it means she wants to work on projects with HX users I guess?  and have Admins help promote it
+[20:41:57] <rubinovitz> well the idea is its a more former ownership structure
+[20:41:58] <SamuelKelemen> Same
+[20:42:01] <vishwin60> https://en.wikipedia.org/wiki/Cooperative
+[20:42:01] <yossarian-bot> Title: Cooperative - Wikipedia, the free encyclopedia
+[20:42:15] <rubinovitz> so if you're working on things and want former shared ownership it's there
+[20:42:16] <SamuelKelemen> I want to unleash the combined power of 22,000 hackathon hackers
+[20:42:28] <jfkingsley> ...
+[20:42:31] <gsingh93> what does former shared ownership mean
+[20:42:32] *** Joins: relisher (~arelin@165.123.250.145)
+[20:42:32] <jfkingsley> That is a terrifying concept.
+[20:42:49] <gsingh93> this is stuff i never deal with, sorry again
+[20:42:51] <SamuelKelemen> @jfkingsley we are legion. we are hx.
+[20:43:01] <majora> SamuelKelemen cut it out pls
+[20:43:07] <gsingh93> +1 majora
+[20:43:15] <relisher> ouch bad memories samuelkelemen
+[20:43:24] <iangcarroll> let's keep the conversation limited/on topic, especially when people are typing/being asked questions
+[20:43:25] <arirawr> cut the chatter folks
+[20:43:27] <SamuelKelemen> =( I was being serious.
+[20:44:03] <jfkingsley> Everybody take a chill pill.
+[20:44:27] <rubinovitz> it really depends on the co-ops structure. I can post the bylaws later (i sent a really rough draft to the domains.coop people). I'll try to do an example
+[20:44:35] <gsingh93> an example would be great
+[20:44:37] <jfkingsley> So basically it's an umbrella co-operative for HX members/other hacking people to work on group projects?
+[20:44:43] <cydrobolt> hey
+[20:44:44] <jfkingsley> At least, that's what i've gathered thus far
+[20:44:44] <cydrobolt> I'm back
+[20:44:49] <jfkingsley> Welcome back
+[20:44:55] <gsingh93> cydrobolt: we've already discussed meetbot
+[20:45:04] <cydrobolt> :(
+[20:45:08] <gsingh93> no worries
+[20:45:13] <majora> ~15 minutes left all~
+[20:45:14] <gsingh93> we'll talk later
+[20:45:35] <cydrobolt> okay
+[20:45:47] <rubinovitz> I want to make a udemy online course someone on HX on how to do software contracting. I don't know him well, but if i do it through the co-op I can legally make sure him and i get the profits
+[20:46:02] <rubinovitz> its all stuff I would need to explain better in bylaws
+[20:46:36] <gsingh93> interesting
+[20:46:45] <rubinovitz> so i can wait for next meeting to talk about it. the idea is to catalyze new projects in a feedback loop by giving the proceeds back to the people doing the projects
+[20:46:45] <gsingh93> i'd be interested in hearing more with some bylaws
+[20:46:50] <gsingh93> +1
+[20:46:59] <relisher> are we registered as a business entity though? sorry if I missed this
+[20:47:01] <rubinovitz> yeah i can come back next mtg with a better pitch. just got the approval for the domain today. so we legit
+[20:47:01] <jfkingsley> +1
+[20:47:05] <iangcarroll> no relisher
+[20:47:15] <iangcarroll> what rubinovitz is doing might be
+[20:47:18] <woodruffw> by the way, would any of the admins like admin access to yossarian-bot to enable/disable plugins?
+[20:47:30] <rubinovitz> relisher: yes I think I am going to go that route.
+[20:47:35] <arirawr> I'm down to develop hack coop stuff inside or outside of HX rubinovitz
+[20:47:45] <vishwin60> HX isn't registered as an official anything afaik
+[20:47:50] <iangcarroll> woodruffw: probably not, just because of the fact we change every 3 months
+[20:47:52] <vishwin60> that's why we are two pound signs instead of one
+[20:47:58] <vishwin60> on freenode
+[20:47:59] <iangcarroll> okay
+[20:48:01] <woodruffw> iangcarroll: got it
+[20:48:03] <iangcarroll> so we're going to go to questions
+[20:48:04] <gsingh93> woodruffw: there's time at the end of off topic stuff
+[20:48:12] <gsingh93> /s/of/for/
+[20:48:16] <iangcarroll> as I believe we've hit the end of our agenda items
+[20:48:16] <relisher> And I don't understand why it should hx that is the cooperative - it seems like a very separate initiative
+[20:48:18] <woodruffw> alright, ping me then
+[20:48:20] * woodruffw idles
+[20:48:26] <relisher> *it should be hx
+[20:48:36] <iangcarroll> so
+[20:48:45] <iangcarroll> i'm sure at least one person has a question
+[20:48:52] <arirawr> relisher: it is a separate initiative, one that we may be able to partake in
+[20:48:55] <rubinovitz> relisher: it's more like if you had a big project that you wanted your ownership protected on
+[20:48:57] <rubinovitz> we should talk
+[20:49:13] <relisher> Ok - makes sense now, thanks for clearing up
+[20:49:40] <arirawr> questions concerns compliments queries comments?
+[20:49:47] <rubinovitz> everyone looks amazing.
+[20:49:51] <vishwin60> lol
+[20:49:54] <arirawr> ;)
+[20:50:16] <arirawr> So great hearing all your voices tonight
+[20:50:18] <arirawr> :P
+[20:50:25] <SamuelKelemen> is HX Ski Trip a go?
+[20:50:31] <gsingh93> lolol
+[20:50:32] <arirawr> totes
+[20:50:41] <SamuelKelemen> that'd be sick
+[20:50:45] <arirawr> make your way up to my part of the continent
+[20:50:47] <SamuelKelemen> i'd fly to Canada for it
+[20:50:48] <jfkingsley> The first official subgroup: HX Ski Trip
+[20:50:59] <SamuelKelemen> more of an event...
+[20:51:04] <arirawr> ^
+[20:51:14] <jfkingsley> Fair enough
+[20:51:24] <gsingh93> well
+[20:51:27] <arirawr> Any more Qs or are we done?
+[20:51:32] <gsingh93> isn't that automotive one a subgroup
+[20:51:35] <gsingh93> iangcarroll: meeting done?
+[20:51:38] <SamuelKelemen> HX Takes Mont-Tremblant
+[20:51:52] <iangcarroll> yeah
+[20:51:56] <iangcarroll> meeting adjourned
+[20:51:57] <gsingh93> cool
+[20:51:58] <iangcarroll> :gavel:
+[20:52:04] <jfkingsley> Okay, sweet! Nice to see you all. :D
+[20:52:06] <vishwin60> today's log http://hx.vishwin.info/%23%23hx-admin/2016-02-02.log
+[20:52:09] <rubinovitz> thx for feedback
