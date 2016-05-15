@@ -1,0 +1,99 @@
+[19:17:24] <majora> ok, the meeting has officially started
+[19:17:27] <ben_the_mod> I will be a bit AFK, but continue. I'll peep from time to time
+[19:17:28] <ben_the_mod> leggo
+[19:17:46] <majora> The first thing on the agenda is extending the terms of admins
+[19:17:59] <majora> it was suggested to extend the terms to six months
+[19:18:37] <iangcarroll> I believe everyone agrees this is a Good IdeaÂ®?
+[19:19:05] <iangcarroll> mainly because of our poor nomination turnout last time
+[19:19:12] <vishwin> yuh
+[19:19:45] <vishwin> three months to renew letsencrypt definitely felt short, certainly the same feels apply here
+[19:19:48] -git_notify- [policies] frankcash opened pull request #16: Update admin-policy.md with longer admin term (master...increase-term-length) https://git.io/vrGV7
+[19:19:51] <majora> I'm fine with this, and I just created a pull
+[19:20:40] <iangcarroll> ben_the_mod, if you're not AFK?
+[19:21:06] <ben_the_mod> yeah, it's fine
+[19:21:08] <ben_the_mod> go for it
+[19:21:14] <majora> okay, I'll merge it
+[19:21:23] <ben_the_mod> I'll put in more involvement
+[19:21:45] <majora> okay
+[19:21:49] <vishwin> lol
+[19:21:51] <majora> the next topic at hand
+[19:22:04] <majora> Merging the content policy
+[19:22:16] <majora> more so, we wish to merge Ian's version of the content policy
+[19:22:33] <iangcarroll> I essentially removed the "good" section from it
+[19:22:52] <majora> if anyone would like to see it, you can read it here <https://github.com/wearehx/policies/blob/64a86faef16afceea7403c089e1458cadac4def2/content-policy.md>
+[19:22:52] <yossarian-bot> Title: policies/content-policy.md at 64a86faef16afceea7403c089e1458cadac4def2 Â· wearehx/policies Â· GitHub
+[19:23:02] <iangcarroll> The PR has been there since March and nobody has really said anything bad about it so I'd like to think people don't mind it...
+[19:23:35] <majora> TLDR:  says keeps things civil, outlines what a bad post is, asks not to use HX as tech support, says to search for easily answered questions, and tells people not to make vague or unhelpful posts
+[19:23:46] <iangcarroll> gsingh93 brought up banning social posts in the issues recently, which I think we should do
+[19:23:51] <iangcarroll> and iirc is what we have been doing
+[19:23:52] <majora> also establishes the MAYMAY policy (oh shit, it's dat boi)
+[19:23:52] <ben_the_mod> I reviewed both Ian's version and Gulshan's version, and Ian's version looks like the supreme version.
+[19:23:58] <ben_the_mod> And I'm not really opposed.
+[19:24:02] <ben_the_mod> Less trash, yknow?
+[19:24:21] <majora> I think meetup threads should be banned
+[19:24:22] <vishwin> what were some examples of said social posts?
+[19:24:29] <vishwin> meetups?
+[19:24:48] <iangcarroll> Yeah, I think the only instance so far was one about car pooling to a hackathon
+[19:24:54] <iangcarroll> Instance that we've seen
+[19:25:31] <majora> yeah, I generally think posts like that are okay.  But I don't see how they contribute.  So I'm okay with that being added
+[19:25:53] <iangcarroll> Also something a subgroup could take care of
+[19:25:53] <vishwin> they don't contribute to online content per se,
+[19:26:01] <majora> yes
+[19:26:36] <majora> okay, so we're all for it being merged
+[19:26:38] <iangcarroll> I'll add that to the bad post section
+[19:26:43] <majora> I'll add a TODO to update it
+[19:26:48] <iangcarroll> kk
+[19:27:09] <majora> okay, the next subject is future meeting schedule
+[19:27:26] <majora> as of right now there is nothing else that I know of which we need to immediately meet about
+[19:27:44] <majora> I think we should have another meeting next month though, and make them monthly
+[19:27:52] <iangcarroll> indeed
+[19:27:53] <vishwin> ad-hoc meetings sound better
+[19:28:01] <iangcarroll> also more notice for meetings
+[19:28:01] <majora> oh?
+[19:28:02] <vishwin> as long as due notice are provided
+[19:28:22] <iangcarroll> This one probably should have happened weeks ago, lol
+[19:28:37] <majora> I have no problem with ad-hoc I just think doing them monthly makes it easier
+[19:28:43] <majora> also more likely to get stuff done :^)
+[19:28:57] <majora> like setting up meetbot, etc
+[19:29:09] <majora> also makes the group feel a bit more official
+[19:29:32] <vishwin> maybe when a TODO list gets to a certain threshold
+[19:29:42] <vishwin> then give due notice for upcoming meeting to discuss them
+[19:30:02] <majora> I think that's fine
+[19:30:15] <majora> iangcarroll and ben_the_mod, thoughts?
+[19:30:33] <ben_the_mod> We're scaling well
+[19:30:35] <iangcarroll> TODO items have different importances, though
+[19:30:37] <ben_the_mod> We meet as usual
+[19:30:39] <ben_the_mod> That's it
+[19:30:45] <ben_the_mod> We're all available at LEAST on IRC, so it's cool
+[19:30:57] <majora> okay, ad-hoc meetings is fine
+[19:31:01] <vishwin> something along the lines of TODO
+[19:31:11] <majora> iangcarroll agreed
+[19:31:22] <majora> and if we had them monthly, merging this wouldn't have been an issue
+[19:31:39] <majora> we all have varying factors outside of HX, but if we schedule something monthly it will be a known commitment
+[19:31:43] <majora> is how I feel
+[19:31:47] <iangcarroll> Maybe monthly unless we don't need one?
+[19:31:55] <majora> that sounds good
+[19:32:07] <vishwin> yeah
+[19:32:42] <majora> ben_the_mod, thoughts on monthly unless necessary?
+[19:32:49] <ben_the_mod> Works for me.
+[19:32:51] <majora> also, we can decide on the time and days later
+[19:33:00] <majora> we should add that to the admin policy?
+[19:33:19] <iangcarroll> do we document meetings in there?
+[19:33:22] <majora> once we decide if there is a periodic day for it
+[19:33:37] <iangcarroll> sounds good
+[19:33:40] <majora> >All admin activity will be public. In the case of bans, see the ban policy later in this document. For larger, more official meetings, either the entire chat log will be posted (possibly as a GitHub commit or a gist), or paraphrased meeting minutes. Small, one-off conversations/meetings do not need to be public. Ideally, these meetings should occur in the ##hx-admin IRC channel on Freenode.
+[19:34:02] <majora> I think, once we decide like x-th Sunday of the month adding it wont hurt
+[19:34:14] <majora> awesome
+[19:34:16] <iangcarroll> alright
+[19:34:37] <majora> does anyone have any suggestions, questions, or issues they'd like to raise relating to the aforementioned topics or in general?
+[19:35:22] <majora> nsgomez, sivoais, anyone?
+[19:35:22] <iangcarroll> We should post about the policy overhaul
+[19:35:28] <majora> okay
+[19:35:47] <majora> well, it'd be more of a post establishing a policy
+[19:35:49] <majora> for content
+[19:35:53] <majora> and updating the admin policy
+[19:36:24] <majora> vishwin, do you have anything you'd like to add?
+[19:36:50] <majora> okay
+[19:36:59] <majora> iangcarroll or ben_the_mod, anything else?
+[19:37:07] <iangcarroll> nope
+[19:37:11] <ben_the_mod> Nope, looks good.
